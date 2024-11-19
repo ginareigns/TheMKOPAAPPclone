@@ -8,6 +8,7 @@ class Help extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+         foregroundColor: Colors.white,
       elevation: 0,
       backgroundColor: Colors.transparent,
         title: const Text('Help', style: TextStyle(color:Colors.white, fontWeight: FontWeight.bold, fontSize: 20),
